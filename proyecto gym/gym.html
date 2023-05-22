@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="gym.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJAMvaO0BoEHZkDL9BycCcSnsSoKedj7Dphw&usqp=CAU">
+    <title>CR7 GYM</title>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="contenedor-header">
+        <header>
+            <h1>CR7 <span class="txtRojo">GYM</span></h1>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#comodidades" onclick="seleccionar()">Comodidades</a>
+                <a href="#galeria" onclick="seleccionar()">Galería</a>
+                <a href="#equipo" onclick="seleccionar()">Equipo</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+            </nav>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>                
+        </header>
+    </div>
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-seccion">
+            <div class="info">
+                <h2>CUMPLE TU<span class="txtRojo"> SUEÑO</span></h2>
+                <p>Insistir, persistir y nunca desistir!</p>
+                <a href="#nosotros" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+            <div class="opciones">
+                <div class="opcion">
+                    01.FITNESS
+                </div>
+                <div class="opcion">
+                    02.CROSSFIT
+                </div>
+                <div class="opcion">
+                    03.BOXEO
+                </div>
+                <div class="opcion">
+                    04.POWERLIFTING
+                </div>
+                <div class="opcion">
+                    05.CALISTENIA
+                </div>
+                <div class="opcion">
+                    06.CARDIO
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="nosotros">
+        <div class="fila">
+            <div class="col">
+                <img src="https://www.activemonash.vic.gov.au/files/assets/activemonash/images/category-images/fitness/gym.jpg?w=1200" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+        </div>
+        <hr>
+        <div class="fila-nosotros">
+            <div class="col1">
+                <span class="frase">
+                    <span class="txtRojo">ENTRENA</span> DESDE YA
+                </span>
+                <h2>ENTRENA <span class="txtRojo">GRATIS</span> HOY!</h2>
+            </div>
+            <div class="col2">
+                <button>PASE LIBRE</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION SERVICIOS -->
+    <section class="servicios" id="servicios">
+        <div class="contenido-seccion">
+            <div class="fila">
+                <div class="col">
+                    <div class="contenedor-titulo">
+                        <div class="numero">
+                            02
+                        </div>
+                        <div class="info">
+                            <span class="frase">EL MEJOR SERVICIO Y EXPERIENCIA</span>
+                            <h2>SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <li><span><b>Facilidades:</b></span> Contamos con diferentes servicios en línea como inscripción rápida, transferencia de sucursales y cambio de plan.</br></br>
+                    <li><span><b>Presencia:</b></span> Entrena cuando quieras y donde quieras. Queremos que siempre exista un CR7 GYM cerca de ti. Actualmente contamos cuenta con 14 sucursales.</br></br>
+                    <li><span><b>Accesibilidad:</b></span> Nuestra misión es entregar fitness de alta calidad, haciéndolo accesible para todos. Es por eso que todos nuestros gimnasios cuentan con la tecnología e instalaciones adecuadas para satisfacer las necesidades de nuestros usuarios.</li>
+                </div>
+                <div class="col">
+                    <img src="https://www.cromosomax.com/gallery/cristiano_ronaldo_cr7_desnudo_1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="info-servicios">
+            <table>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h3> Clases de<span class="txtRojo"> Fitness</span></h3>
+                        <p>Mejora tu estado del cuerpo mediante el entrenamiento de los músculos.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h3> Clases de<span class="txtRojo"> Crossfit</span></h3>
+                        <p>Entrenamientos de alta intensidad donde combines ejercicios metabólicos, fuerza, halterofilia y gimnasia.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-mitten"></i>
+                        <h3> Clases de<span class="txtRojo"> Boxeo</span></h3>
+                        <p>Mejora tu salud cardiovascular, resistencia y fortaleces tus músculos.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-clock"></i>
+                        <h3> Clases de<span class="txtRojo"> Zumba</span></h3>
+                        <p>Mejora la coordinación corporal mediante el ritmo de la música.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+                        <h3> Clases de<span class="txtRojo"> Boxeo</span></h3>
+                        <p>Eleva la frecuencia cardíaca y la respiración durante el uso de grupos musculares de forma repetitiva.</p>
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-bicycle"></i>
+                        <h3> Clases de<span class="txtRojo"> Ciclismo</span></h3>
+                        <p>Eleva la resistencia y aguante sin dañar los músculos de las piernas.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- SECCION COMODIDADES -->
+    <section id="comodidades" class="comodidades">
+        <div class="fila">
+            <div class="col">
+                <img src="https://media.istockphoto.com/id/856952780/es/foto/tratamiento-de-spa-de-belleza-con-velas.jpg?s=170667a&w=0&k=20&c=T15kCD7dm4JuZF3CLDNgx87xmuXAMfs3oVC_7FDx0AQ=" alt="">
+            </div>
+            <div class="col">
+                <div class="contenedor-titulo">
+                    <div class="numero">
+                        03
+                    </div>
+                    <div class="info">
+                        <span class="frase">EL MEJOR SERVICIO Y EXPERIENCIA</span>
+                        <h2>COMODIDADES</h2>
+                    </div>
+                </div>
+                <p class="p-especial">Contamos con una serie de comodidades por pertenecer a nuestro CR7 GYM. Entre ellos:</p>
+                <ul>
+                    <li><span>SPA</span>
+                    <li><span>TIENDA</span>
+                    <li><span>JACUZZI</span>
+                    <li><span>PISCINA</span>
+                    <li><span>WIFI GRATIS</span>
+                    <li><span>ESTACIONAMIENTOS GRATIS</span>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    04
+                </div>
+                <div class="info">
+                    <span class="frase">EL MEJOR SERVICIO Y EXPERIENCIA</span>
+                    <h2>GALERIA</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmv_bnAwwIymj0cWCQiBQpMIUu28gtI7RmcoxOvQu2oQYXriIKr-W11n-hRTdO4ghUmC0&usqp=CAU" alt=""></br>
+                </div>
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkMn2GbKNSBo3S84OQcE-OvmOAdOqa0evHBQ&usqp=CAU" alt=""></br>
+                </div>
+                <div class="col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO0D31kRlgJin28bbLsJffpR2Z8Q2VjGGT3g&usqp=CAU" alt=""></br>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- SECCION EQUIPO -->
+    <section class="equipo" id="equipo">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    05
+                </div>
+                <div class="info">
+                    <span class="frase">EL MEJOR SERVICIO Y EXPERIENCIA</span>
+                    <h2>EQUIPO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <img src="https://us.123rf.com/450wm/antondotsenko/antondotsenko1708/antondotsenko170800223/84909233-fitness-atractivo-cauc%C3%A1sica-modelo-de-manera-en-el-gimnasio-de-cerca-hombre-abs-concepto-en-la.jpg?ver=6">
+                    <div class="info">
+                        <h2>MAURICIO</h2>
+                        <p>Fitness - Pilates - Volumen</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://media.istockphoto.com/id/540598084/es/foto/deportivo-mujer-hacer-su-rutina-de-ejercicios-con-pesas-aislado.jpg?s=612x612&w=0&k=20&c=ec4QaGgKB-FBdawet2li6eW_7rVnYBu-o7SsM2wX9RI=" alt="">
+                    <div class="info">
+                        <h2>LORENA</h2>
+                        <p>Fitness - Pilates - Yoga</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://www.fitnesszonegym.com/img/hombre-musculoso-con-pesas.png">
+                    <div class="info">
+                        <h2>MARCOS</h2>
+                        <p>Fitness - Pilates - Hipertrofia</p>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">EL MEJOR SERVICIO Y EXPERIENCIA</span>
+                    <h2>CONTACTO</h2>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Email">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa el Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Avenida Ricardo J Alfaro
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>
+                    6246-5883
+                </div>
+                <div class="col">
+                    <i class="fa-regular fa-clock"></i>
+                    Lunes a Sábado, 08:00 - 22:00
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <div class="info">
+            <p>2023 - <span class="txtRojo">CR7 GYM</span>Todos los derechos reservados.</p>
+            <div class="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="gym.js"></script>
+</body>
+</html>
